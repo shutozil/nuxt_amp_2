@@ -13,7 +13,7 @@
     </div>
     <div v-else>
       <span v-for="(image, key, index) in images" :key="index">
-        <img :src="image" width="667" height="1000" />
+        <img :src="image" width="100%" height="1000" />
       </span>
     </div>
   </div>

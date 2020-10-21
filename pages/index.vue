@@ -22,11 +22,14 @@
         </a>
       </div>
     </div>
+    <nuxt-link to="/demo">AMP DEMO</nuxt-link>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  amp: false,
+}
 </script>
 
 <style>

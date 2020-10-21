@@ -22,7 +22,10 @@
         </a>
       </div>
     </div>
+    <br />
     <nuxt-link to="/demo">AMP DEMO</nuxt-link>
+    <br />
+    <nuxt-link to="/simple">AMPを使用しないページ</nuxt-link>
   </div>
 </template>
 

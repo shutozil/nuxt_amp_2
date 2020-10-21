@@ -10,11 +10,18 @@
       <p>This is AMP</p>
     </div>
     <div v-else>
-      <div class="text-center">
+      <div>
         <img src="/vuetify-logo.svg" width="266" height="150" />
       </div>
-      <p>This is nomal view</p>
+      <p>This is regular view</p>
     </div>
+    <div class="content">
+      <p>ああああああああああああああああああああああああああああ</p>
+      <p>ああああああああああああああああああああああああああああ</p>
+      <p>ああああああああああああああああああああああああああああ</p>
+      <p>ああああああああああああああああああああああああああああ</p>
+    </div>
+    <ImageArea />
   </div>
 </template>
 
@@ -22,7 +29,8 @@
 export default {
   amp: 'hybrid',
   // ampの時にlayoutが変わる
-  ampLayout: 'default.amp',
+  // 同じlayoutを使うのなら変える必要はないが、defaultがAMPの制約に沿わなくなったなら変える必要がある。
+  // ampLayout: 'default.amp',
 
   data() {
     return {
@@ -52,3 +60,11 @@ export default {
   },
 }
 </script>
+<style>
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+</style>

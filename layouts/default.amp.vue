@@ -1,6 +1,6 @@
 <template>
   <div class="amp-layout">
-    <div>仮ヘッダー</div>
+    <div>AMP Header</div>
     <nuxt />
   </div>
 </template>
